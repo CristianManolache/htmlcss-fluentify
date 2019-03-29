@@ -3,9 +3,11 @@
   padding: 0;
   margin: 0;
 }
+header {
+  background-color: #0d325a;
+}
 /* GLOBAL SETTINGS + HEADNAV*/
 .navhead {
-  background-color: #0d325a;
   width: 100%;
   height: 100px;
   position: relative;
@@ -27,13 +29,18 @@
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
+  padding-left: 10px;
 }
-.navheadleft, .navheadright {
-  width: 50%;
-  height: auto;
+.navheadleft {
   float: left;
-  margin: 0 auto;
+  text-align: left;
+  padding: 40px;
+}
+.navheadright {
+  float: right;
+  text-align: right;
+  padding: 60px;
 }
 .greenlink {
   text-transform: uppercase;
